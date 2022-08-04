@@ -6,9 +6,12 @@ public class TpZoo {
 		
 		System.out.println("TP ZOO");
 		
-		Animal animal = new Animal("Médor", "Ouaf");
-		System.out.println(animal.getCri());
-
+		Animal chien = new Animal("Médor", "wouaf");
+		System.out.println(chien.toString());
+		System.out.println(chien.getCri());
+		
+		Animal chat = new Animal("Felix", "miaou");
+		System.out.println(chat.toString());
+		System.out.println(chat.getCri());
 	}
-
 }

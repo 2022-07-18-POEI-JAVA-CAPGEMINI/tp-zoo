@@ -37,4 +37,8 @@ public class Animal {
 		return this.cri;
 	}
 	
+	public String toString() {	
+		return "Mon nom est : "+nom + " mon cri est : "+cri;
+	}
+	
 }
