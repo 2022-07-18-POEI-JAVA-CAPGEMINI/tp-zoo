@@ -1,6 +1,6 @@
 package com.m2i.tpzoo;
 
-public class Animal {
+public abstract class Animal {
 
 	
 	private String nom;
@@ -33,9 +33,7 @@ public class Animal {
 		this.cri = cri;
 	}
 
-	public String pousserCri() {
-		return this.cri;
-	}
+	public abstract String pousserCri();
 	
 	public String toString() {	
 		return "Mon nom est : "+nom + " mon cri est : "+cri;
